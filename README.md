@@ -5,7 +5,7 @@ This repository is created for assessment purposes for SAP Fionner
 
 1. Clone this repository
 2. Run `npm install`
-3. Run `npm run cypress:open`
+3. Run `npx cypress open`
 4. Close cypress -> 'CTRL+C'
 5. Run particular sripts from `package.json` using `npm run`<p>
   `cy:open` - will open cypress with GUI<br>
