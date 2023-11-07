@@ -1,0 +1,32 @@
+[
+
+    {
+        "name":"Banking",
+        "id":"menu-item-29961"
+    },
+    {
+        "name":"Insurance",
+        "id":"menu-item-29972"
+    },
+    {
+        "name":"Finance & ESG",
+        "id":"menu-item-29979"
+    },
+    {
+        "name":"Services",
+        "id":"menu-item-29985"
+    },
+    {
+        "name":"Partners",
+        "id":"menu-item-26"
+    },
+    {
+        "name":"Company",
+        "id":"menu-item-26834"
+    }, 
+    {
+        "name":"Resources",
+        "id":"menu-item-26831"
+    }
+
+]

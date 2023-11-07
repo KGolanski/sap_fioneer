@@ -23,3 +23,14 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.on('uncaught:exception', err => !err.message.includes('Cannot read properties'))
+Cypress.on('uncaught:exception', err => !err.message.includes('jQuery is not defined'))
+
+Cypress.Commands.add("switchToIframe", (iframe) => {
+    return cy
+      .get(iframe)
+      .its("0.contentDocument.body")
+      .should("be.visible")
+      .then(cy.wrap);
+  });
