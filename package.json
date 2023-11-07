@@ -2,10 +2,11 @@
   "dependencies": {
     "cypress": "^13.4.0"
   },
-
   "scripts": {
     "cy:open": "cypress open",
     "cy:run": "cypress run --browser=chrome"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.6.1"
   }
-
 }
